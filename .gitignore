@@ -1,0 +1,15 @@
+## idea 제외
+**/.idea/**
+## vscode 제외
+**/.vscode/**
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+**/node_modules/**
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
