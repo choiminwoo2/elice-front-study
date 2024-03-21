@@ -272,6 +272,7 @@
 
 -----------------------------------------------------------------------------------------
 # 박스모델
+![image](https://github.com/choiminwoo2/elice-front-study/assets/54802110/dc6f472a-f0aa-4494-8e24-72d4ebece194)
 
 # Block요소와 Inline요소
 
