@@ -8,3 +8,12 @@ html {
 .wrap {
   margin: 0 auto;
 }
+
+li{
+  list-style-type:none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
