@@ -4,6 +4,7 @@
 }
 
 .wooseok .favorite_picture_header{
+    padding-top: 30px;
     display: flex;
 }
 .wooseok .favorite_pictures{
