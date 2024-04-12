@@ -1,0 +1,98 @@
+.wooseok{
+    width: 1136px;
+    margin: auto;
+}
+
+.wooseok .favorite_picture_header{
+    padding-top: 30px;
+    display: flex;
+}
+.wooseok .favorite_pictures{
+    
+}
+.wooseok .favorite_pictures ul{
+    padding: 0;
+    display: flex;
+    width:1136px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.wooseok .favorite_pictures ul li img{
+    width: 271px;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+.wooseok .advertise_banner{
+    width: 1136px;
+    height: 300px;
+    background-image: url('https://image.ohou.se/i/bucketplace-v2-development/uploads/home/marketing/164275275904243279.jpg?gif=1&w=1920');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wooseok .review_header{
+    display: flex;
+}
+
+.wooseok .reviews{
+    display: flex;
+    justify-content: center;
+    width:1136px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin: 10px;
+}
+
+.wooseok .reviews .review{
+    margin: 8px;
+}
+
+.wooseok .reviews .review img{
+    width: 350px;
+    height: 351px;
+    border-radius: 10px;
+}
+
+.wooseok .reviews .review .review_content{
+  height: 3.5rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  overflow: hidden;
+  word-break: break-word;
+  text-overflow: ellipsis;
+  margin-top: 6px;
+  width: 351px;
+}
+
+
+svg{
+width: 1.5rem;
+  height: auto;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.wooseok .footer .icons{
+    display: flex;
+
+}
+
+.wooseok .footer .foot_container{
+    display: flex;
+}
+
+
+.fa{
+    color: #35c5f0;
+}
+
+
+
+.footer{
+    margin-bottom: 100px;
+}
