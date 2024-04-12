@@ -8,7 +8,7 @@ html {
 }
 
 .wrap {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 li {
@@ -34,3 +34,12 @@ a {
     --star-color: #35c5f0;
 }
 
+
+li{
+  list-style-type:none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
