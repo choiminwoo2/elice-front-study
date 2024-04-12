@@ -10,593 +10,764 @@
     <link rel="stylesheet" type="text/css" href="../css/wooseok.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/choi.css" />
+    <link rel="stylesheet" type="text/css" href="../css/yeonji.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/def66b134a.js" crossorigin="anonymous"></script>
     <script src="../js/test.js"></script>
   </head>
   <body>
     <div class="wrap">
-      <section class="sections_2_top">
-        <h1 class="sections_2_title">오늘의 스토리</h1>
-        <ul class="section_2_content">
-          <li class="section_2_item">
-            <article>
-              <a href>
-                <div class="section_2_image_wrap">
-                  <img
-                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/164318713825111761.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
-                    alt="통통 튀는 레트로 키치 하우스"
-                    style="width: 276px; height: 176px"
-                  />
+      <!-- 헤더 -->
+      <header>
+        <!-- 헤더의 상단 부분-->
+        <div class="yj-header-upper">
+          <div class="yj-header-upper-inner">
+            <div class="yj-header-upper-left">
+              <div class="yj-header-logo">
+                <a href="#">오늘의 집</a>
+              </div>
+              <div class="yj-header-upper-left-list">
+                <nav class="yj-item-1">커뮤니티</nav>
+                <nav class="yj-item-2">스토어</nav>
+                <nav class="yj-item-3">인테리어시공</nav>
+              </div>
+            </div>
+            <div class="yj-header-upper-right">
+              <div>
+                <div class="yj-header-upper-service">
+                  <div class="yj-header-upper-search">
+                    <i class="yj-fa-solid fa-magnifying-glass fa-2x"></i>
+                    <input type="text" placeholder="통합검색" />
+                  </div>
+                  <a href=""><i class="yj-fa fa-cart-shopping fa-2x"></i> </a>
+                  <div class="yj-header-service-child-1">로그인</div>
+                  <div class="yj-header-service-child-2">회원가입</div>
+                  <div class="yj-header-service-child-3">고객센터</div>
+                  <button class="yj-header-upper-btn">글쓰기</button>
                 </div>
-                <h4 class="img_text">통통 튀는 레트로 키치 하우스</h4>
-              </a>
-            </article>
-          </li>
-          <li class="section_2_item">
-            <article>
-              <a href>
-                <div class="section_2_image_wrap">
-                  <img
-                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/164216751229719039.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
-                    alt="다락방이 있는 화이트 하우스!"
-                    style="width: 276px; height: 176px"
-                  />
-                </div>
-                <h4 class="img_text">다락방이 있는 화이트 하우스!</h4>
-              </a>
-            </article>
-          </li>
-          <li class="section_2_item">
-            <article>
-              <a href>
-                <div class="section_2_image_wrap">
-                  <img
-                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/164216751229719039.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
-                    alt="다락방이 있는 화이트 하우스!"
-                    style="width: 276px; height: 176px"
-                  />
-                </div>
-                <h4 class="img_text">40년된 빌라의 변신!</h4>
-              </a>
-            </article>
-          </li>
-          <div class="section_2_content__menu_wrap">
-            <div class="section_2_content__menu">
-              <a class="section_2_content__menu__entry">
-                <div>예쁜 집 구경하기</div>
-                <div>집들이</div>
-              </a>
-              <a class="section_2_content__menu__entry">
-                <div>전문가 시공사례</div>
-                <div>전문가 집들이</div>
-              </a>
-              <a class="section_2_content__menu__entry">
-                <div>인테리어 꿀팁 총 정리</div>
-                <div>노하우</div>
-              </a>
+              </div>
             </div>
           </div>
-        </ul>
-      </section><!-- 오늘의 스토리 끝-->
-    
-      <section class="sections_2_category">
-        <h1 class="sections_2_title">카테고리별 상품 찾기</h1>
-        <ul class="section_2_category_contents">
-          <li class="section_2_category_item">
-            <div>
-              <a href>
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/164333421927911367.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="가구 이미지">
-                <h4>가구</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823225115177697.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="페브릭 이미지">
-                <h4>페브릭</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823225665741013.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="조명 이미지">
-                <h4>조명</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823226017937426.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="가전 이미지">
-                <h4>가전</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823226903946200.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="주방용품 이미지">
-                <h4>주방용품</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823227719846773.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="데코/식물 이미지">
-                <h4>데코/식물</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823228178967968.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="수납/정리 이미지">
-                <h4>수납/정리</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/163609843911228804.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="생활용품 이미지">
-                <h4>생활용품</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/164333398177552131.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="서랍/수납장 이미지">
-                <h4>서랍/수납장</h4>
-              </a>
-            </div>
-          </li>
-          <li class="section_2_category_item">
-            <div>
-              <a href="">
-                <img
-                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/163575474448469686.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
-                  alt="생필품 이미지">
-                <h4>생필품</h4>
-              </a>
-            </div>
-          </li>
-        </ul><!--카테고리 리스트 보여주기 끝 -->
-      </section> <!--카테고리별 상품 찾기 끝 -->
-    
-      <section class="section_2_deal">
-        <div class="section_2_deal_wrap">
-          <h1 class="sections_2_title">오늘의딜</h1>
-          <ul class="section_2_deal_container">
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/161250856124523233.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">오토엔알로</h4>
-                    <p class="section_2_deal_item_sub">
-                      1+1 마이크로화이바/에어로쿨 항균 일반/경추형 베개솜 6종
-                      모음전
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">66%</div>
-                      <div class="section_2_deal_item_sales_price">11,900 외</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.7</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 3,452</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/160375875541696132.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">하벤홈</h4>
-                    <p class="section_2_deal_item_sub">
-                      9존 인생 매트리스토퍼 3color(MS/S/Q)
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">56%</div>
-                      <div class="section_2_deal_item_sales_price">30,400</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.6</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 12,565</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163609331904264148.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">집드리</h4>
-                    <p class="section_2_deal_item_sub">
-                      [해외] 귀여운 댕댕이 삼형제 소프트 러그 발매트 댕댕이
-                      삼형젬 3size
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">50%</div>
-                      <div class="section_2_deal_item_sales_price">8,900</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.4</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 91</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/164197475359375972.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">삼성전자</h4>
-                    <p class="section_2_deal_item_sub">
-                      삼성 드럼+건조기
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">30%</div>
-                      <div class="section_2_deal_item_sales_price">2,349,000</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.9</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 45</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/162545794032326794.jpeg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">바이브라이프(VIBE LIFE)</h4>
-                    <p class="section_2_deal_item_sub">
-                      LED 바이프폴 무드등_6colors
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">22%</div>
-                      <div class="section_2_deal_item_sales_price">24,000</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.7</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 2,775</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/159002840208731500.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">홈앤하우스</h4>
-                    <p class="section_2_deal_item_sub">
-                      라탄 패턴 햄퍼(60L/80L) 3colors
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">41%</div>
-                      <div class="section_2_deal_item_sales_price">18,900</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.7</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 7,830</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/164325577717270205.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">베스트리빙</h4>
-                    <p class="section_2_deal_item_sub">
-                      라탄/철제 정원 야외 카페 티테이블/야외테이블/야외가구 6종
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">53%</div>
-                      <div class="section_2_deal_item_sales_price">73,900 외</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.3</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 200</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/163964060931505832.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">좋은느낌</h4>
-                    <p class="section_2_deal_item_sub">
-                      (25%쿠폰) 울트라슬림 날개/입는 오버나이트/팬티라이너 모음
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">29%</div>
-                      <div class="section_2_deal_item_sales_price">26,800 외</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.7</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 499</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-            <li class="section_2_deal_item">
-              <article>
-                <a href="">
-                  <div class="section_2_deal_img">
-                    <img
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/163287455382441783.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
-                      alt="오늘의 세일 상품 이미지">
-                  </div>
-                  <div class="section_2_deal_item_details">
-                    <h4 class="section_2_deal_item_title">디에이트</h4>
-                    <p class="section_2_deal_item_sub">
-                      [1+1] 내열유리 밀크저기/계량컵/머그컵 인기상품 모음
-                    </p>
-                    <div class="section_2_deal_item_sales">
-                      <div class="section_2_deal_item_sales_percent">58%</div>
-                      <div class="section_2_deal_item_sales_price">9,900 외</div>
-                    </div>
-                    <div class="section_2_deal_item_sales_review">
-                      <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
-                      <div class="section_2_deal_item_sales_score">4.8</div>
-                      <div class="section_2_deal_item_sales_review_content">리뷰 102</div>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </li>
-          </ul>
         </div>
-      </section><!-- 오늘의 딜 관련 정보 끝 -->
-      <div class="wooseok">
-        <div class="favorite_picture_header">
-          <span><h3>오늘의 인기 사진</h3></span>
-          <div style="margin-left: auto; display: flex; align-items: center;" ><a href="" style="color:#35c5f0;"> 더보기 </a> </div>
+        <!-- 헤더의 하단 부분-->
+        <div class="yj-header-lower">
+          <div class="yj-header-lower-inner">
+            <div class="yj-header-lower-contents-inner">
+              <nav>
+                <a class="yj-header-lower-item__active" href="">홈</a>
+                <a class="yj-header-lower-item" href="">팔로잉</a>
+                <a class="yj-header-lower-item" href="">사진</a>
+                <a class="yj-header-lower-item" href="">집들이</a>
+                <a class="yj-header-lower-item" href="">노하우</a>
+                <a class="yj-header-lower-item" href="">전문가집들이</a>
+                <a class="yj-header-lower-item" href="">셀프가이드</a>
+                <a class="yj-header-lower-item" href="">질문과답변</a>
+                <a class="yj-header-lower-item" href="">이벤트</a>
+              </nav>
+            </div>
+          </div>
         </div>
-        <div class="favorite_pictures">
-            <ul>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370314095886469.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164371397691296582.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370205888074606.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164371758885521313.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
+      </header>
 
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370543809817819.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164364132952996356.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164364434509329828.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
-              <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164365390845804069.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
+      <div class="yj-home-main-img">
+        <div class="yj-home-main-upper">
+          <div class="yj-home-header-left">
+            <img
+              class="yj-img-1"
+              src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/164309149487027066.jpg?gif=1&w=850&h=567&c=c"
+              alt="홈페이지 메인 이미지"
+            />
+            <div class="yj-home-header-tit">
+              <h4>전형적인 구조를 색다르게!</h4>
+              <a href="#">보러가기</a>
+            </div>
+          </div>
+          <div class="yj-home-header-right">
+            <img
+              class="yj-img-2"
+              src="https://image.ohou.se/i/bucketplace-v2-development/static/home_banner/sign_up_web_v2.png?gif=1&w=512"
+              alt="홈페이지 메인 이미지"
+            />
+          </div>
+        </div>
 
+        <div class="yj-home-main-list">
+          <nav class="yj-home-main-list-inner">
+            <ul class="yj-shortcut-list">
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164014793582210313.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>쇼핑하기</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164319427178391528.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>빠른가구배송</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164014820673208281.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>평수별집구경</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164197550064065066.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>공간별사진</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164154620376380239.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>빠른시공상담</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164319433881719285.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>오늘의집이사</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164214406605962730.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>오늘의딜</h4>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-home_feed_shortcut_sets-164300900422684836.png/512/none"
+                    alt="쇼핑하기 바로가기 이미지"
+                    class="yj-shortcut-img"
+                  />
+                  <h4>22년 신년운세</h4>
+                </a>
+              </li>
             </ul>
+          </nav>
         </div>
+      </div>
+    </div>
+    <section class="sections_2_top">
+      <h1 class="sections_2_title">오늘의 스토리</h1>
+      <ul class="section_2_content">
+        <li class="section_2_item">
+          <article>
+            <a href>
+              <div class="section_2_image_wrap">
+                <img
+                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/164318713825111761.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
+                  alt="통통 튀는 레트로 키치 하우스"
+                  style="width: 276px; height: 176px"
+                />
+              </div>
+              <h4 class="img_text">통통 튀는 레트로 키치 하우스</h4>
+            </a>
+          </article>
+        </li>
+        <li class="section_2_item">
+          <article>
+            <a href>
+              <div class="section_2_image_wrap">
+                <img
+                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/164216751229719039.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
+                  alt="다락방이 있는 화이트 하우스!"
+                  style="width: 276px; height: 176px"
+                />
+              </div>
+              <h4 class="img_text">다락방이 있는 화이트 하우스!</h4>
+            </a>
+          </article>
+        </li>
+        <li class="section_2_item">
+          <article>
+            <a href>
+              <div class="section_2_image_wrap">
+                <img
+                  src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/164216751229719039.jpg?gif=1&amp;w=360&amp;h=240&amp;c=c"
+                  alt="다락방이 있는 화이트 하우스!"
+                  style="width: 276px; height: 176px"
+                />
+              </div>
+              <h4 class="img_text">40년된 빌라의 변신!</h4>
+            </a>
+          </article>
+        </li>
+        <div class="section_2_content__menu_wrap">
+          <div class="section_2_content__menu">
+            <a class="section_2_content__menu__entry">
+              <div>예쁜 집 구경하기</div>
+              <div>집들이</div>
+            </a>
+            <a class="section_2_content__menu__entry">
+              <div>전문가 시공사례</div>
+              <div>전문가 집들이</div>
+            </a>
+            <a class="section_2_content__menu__entry">
+              <div>인테리어 꿀팁 총 정리</div>
+              <div>노하우</div>
+            </a>
+          </div>
+        </div>
+      </ul>
+    </section><!-- 오늘의 스토리 끝-->
+  
+    <section class="sections_2_category">
+      <h1 class="sections_2_title">카테고리별 상품 찾기</h1>
+      <ul class="section_2_category_contents">
+        <li class="section_2_category_item">
+          <div>
+            <a href>
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/164333421927911367.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="가구 이미지">
+              <h4>가구</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823225115177697.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="페브릭 이미지">
+              <h4>페브릭</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823225665741013.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="조명 이미지">
+              <h4>조명</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823226017937426.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="가전 이미지">
+              <h4>가전</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823226903946200.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="주방용품 이미지">
+              <h4>주방용품</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823227719846773.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="데코/식물 이미지">
+              <h4>데코/식물</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823228178967968.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="수납/정리 이미지">
+              <h4>수납/정리</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/163609843911228804.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="생활용품 이미지">
+              <h4>생활용품</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/164333398177552131.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="서랍/수납장 이미지">
+              <h4>서랍/수납장</h4>
+            </a>
+          </div>
+        </li>
+        <li class="section_2_category_item">
+          <div>
+            <a href="">
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/163575474448469686.png?gif=1&amp;w=144&amp;h=144&amp;c=c"
+                alt="생필품 이미지">
+              <h4>생필품</h4>
+            </a>
+          </div>
+        </li>
+      </ul><!--카테고리 리스트 보여주기 끝 -->
+    </section> <!--카테고리별 상품 찾기 끝 -->
+  
+    <section class="section_2_deal">
+      <div class="section_2_deal_wrap">
+        <h1 class="sections_2_title">오늘의딜</h1>
+        <ul class="section_2_deal_container">
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/161250856124523233.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">오토엔알로</h4>
+                  <p class="section_2_deal_item_sub">
+                    1+1 마이크로화이바/에어로쿨 항균 일반/경추형 베개솜 6종
+                    모음전
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">66%</div>
+                    <div class="section_2_deal_item_sales_price">11,900 외</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.7</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 3,452</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/160375875541696132.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">하벤홈</h4>
+                  <p class="section_2_deal_item_sub">
+                    9존 인생 매트리스토퍼 3color(MS/S/Q)
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">56%</div>
+                    <div class="section_2_deal_item_sales_price">30,400</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.6</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 12,565</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163609331904264148.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">집드리</h4>
+                  <p class="section_2_deal_item_sub">
+                    [해외] 귀여운 댕댕이 삼형제 소프트 러그 발매트 댕댕이
+                    삼형젬 3size
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">50%</div>
+                    <div class="section_2_deal_item_sales_price">8,900</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.4</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 91</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/164197475359375972.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">삼성전자</h4>
+                  <p class="section_2_deal_item_sub">
+                    삼성 드럼+건조기
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">30%</div>
+                    <div class="section_2_deal_item_sales_price">2,349,000</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.9</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 45</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/162545794032326794.jpeg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">바이브라이프(VIBE LIFE)</h4>
+                  <p class="section_2_deal_item_sub">
+                    LED 바이프폴 무드등_6colors
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">22%</div>
+                    <div class="section_2_deal_item_sales_price">24,000</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.7</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 2,775</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/159002840208731500.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">홈앤하우스</h4>
+                  <p class="section_2_deal_item_sub">
+                    라탄 패턴 햄퍼(60L/80L) 3colors
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">41%</div>
+                    <div class="section_2_deal_item_sales_price">18,900</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.7</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 7,830</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/164325577717270205.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">베스트리빙</h4>
+                  <p class="section_2_deal_item_sub">
+                    라탄/철제 정원 야외 카페 티테이블/야외테이블/야외가구 6종
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">53%</div>
+                    <div class="section_2_deal_item_sales_price">73,900 외</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.3</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 200</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/163964060931505832.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">좋은느낌</h4>
+                  <p class="section_2_deal_item_sub">
+                    (25%쿠폰) 울트라슬림 날개/입는 오버나이트/팬티라이너 모음
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">29%</div>
+                    <div class="section_2_deal_item_sales_price">26,800 외</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.7</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 499</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="section_2_deal_item">
+            <article>
+              <a href="">
+                <div class="section_2_deal_img">
+                  <img
+                    src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/163287455382441783.jpg?gif=1&amp;w=360&amp;h=360&amp;c=c&amp;q=0.8"
+                    alt="오늘의 세일 상품 이미지">
+                </div>
+                <div class="section_2_deal_item_details">
+                  <h4 class="section_2_deal_item_title">디에이트</h4>
+                  <p class="section_2_deal_item_sub">
+                    [1+1] 내열유리 밀크저기/계량컵/머그컵 인기상품 모음
+                  </p>
+                  <div class="section_2_deal_item_sales">
+                    <div class="section_2_deal_item_sales_percent">58%</div>
+                    <div class="section_2_deal_item_sales_price">9,900 외</div>
+                  </div>
+                  <div class="section_2_deal_item_sales_review">
+                    <div class="section_2_deal_item_sales_stars"><span class="fa fa-star checked"></span></div>
+                    <div class="section_2_deal_item_sales_score">4.8</div>
+                    <div class="section_2_deal_item_sales_review_content">리뷰 102</div>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section><!-- 오늘의 딜 관련 정보 끝 -->
+    <div class="wooseok">
+      <div class="favorite_picture_header">
+        <span><h3>오늘의 인기 사진</h3></span>
+        <div style="margin-left: auto; display: flex; align-items: center;" ><a href="" style="color:#35c5f0;"> 더보기 </a> </div>
+      </div>
+      <div class="favorite_pictures">
+          <ul>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370314095886469.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164371397691296582.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370205888074606.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164371758885521313.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
 
-       <a href=""> <div class="advertise_banner">
-        </div>
-      </a>
-        <div class="review_header">
-          <span><h3>유저들의 인테리어 시공 리뷰</h3></span>
-          <div style="margin-left: auto; display: flex; align-items: center;" ><a href="" style="color:#35c5f0;"> 인테리어 전문가 더 찾기 </a> </div>
-        </div>
-        <div class="reviews">
-            <div class="review">
-               <a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/162988677874455633.jpg?gif=1&w=720&h=720&c=c" alt=""></a> 
-                <br/>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <p class="review_content">
-                  
-                  홈앤안목 대표님의 손이 거쳐 가면 감쪽같이 사사삭
-                  완벽해지는 마법(?)이 있습니다~~^^; 견적서부터 실측,
-                  시공완료까지 그야말로 꼼꼼하심 그 자체십니다. 하자랄
-                  것도 없지만 수정사항이 있으면 미루시는 법이
-                  없으셨어요~바로바로 착착! 원하는 디자인이나
-                  시공(ex:조명, 웨인스코팅 등등)을 말씀 드리면 그 부분에
-                  대한 장단점을 넘넘 잘 알고 계셔서 자세히 설명해
-                  주시고, 선택하는데 큰 도움이 됐어요~ 무엇보다 우리
-                  아파트 작업을 해보신 분이라 눈에 보이지 않는 내부
-                  구조물까지 파악하고 계셔서 부차적으로 추가되는
-                  작업이나 금액 없이 순조롭게 이루어져서 만족합니다~
-                  막막하기만 했던 집상황이었지만 원하는 인테리어를
-                  맘껏하고 예쁜 집에 앉아 행복해 하고 있답니다~^^ 더운
-                  여름날 땀 흘리신 홈앤안목업체에 다시 한 번
-                  감사드립니다~~~
-                
-                </p>
-                <span><strong>홈앤안목 인테리어</strong></span>
-            </div>
-            <div class="review">
-             <a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/162995774716480697.jpg?gif=1&w=720&h=720&c=c" alt=""></a> 
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164370543809817819.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164364132952996356.jpeg?gif=1&w=360&h=360&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164364434509329828.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
+            <li><a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164365390845804069.jpeg?gif=1&w=320&h=320&c=c" alt=""></a></li>
+
+          </ul>
+      </div>
+
+     <a href=""> <div class="advertise_banner">
+      </div>
+    </a>
+      <div class="review_header">
+        <span><h3>유저들의 인테리어 시공 리뷰</h3></span>
+        <div style="margin-left: auto; display: flex; align-items: center;" ><a href="" style="color:#35c5f0;"> 인테리어 전문가 더 찾기 </a> </div>
+      </div>
+      <div class="reviews">
+          <div class="review">
+             <a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/162988677874455633.jpg?gif=1&w=720&h=720&c=c" alt=""></a> 
               <br/>
               <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
               <p class="review_content">
-                  
                 
-                부산에 사시는 부모님 댁을 리모델링 했었는데 상담
-                과정은 빠르고 친절하셨고, 시공 기간도 리모델링을 위한
-                이사 일정에 맞춰서 정확하게 잘 지켜주셨습니다.
-                생각했던 부분 이상으로 다른 부분까지 꼼꼼하게 확인하고
-                챙겨주셔서 기대 이상의 퀄리티가 나온 것 같다고
-                부모님도 좋아하셨습니다. 예전에는 한샘 리하우스에서과
-                계약을 하고 진행했었는데 가격 대비 퀄리티를 보면
-                이제는 그냥 이렇게 진행하는게 가성비면에서 만족도가 더
-                높은 것 같다는 생각이 드네요. 어머니가 거의 매일
-                친구분들을 초대하셔서 집들이 중이시라 아파트에서
-                "구경하는 집"이 되어버렸다는 ^.^;
-              
+                홈앤안목 대표님의 손이 거쳐 가면 감쪽같이 사사삭
+                완벽해지는 마법(?)이 있습니다~~^^; 견적서부터 실측,
+                시공완료까지 그야말로 꼼꼼하심 그 자체십니다. 하자랄
+                것도 없지만 수정사항이 있으면 미루시는 법이
+                없으셨어요~바로바로 착착! 원하는 디자인이나
+                시공(ex:조명, 웨인스코팅 등등)을 말씀 드리면 그 부분에
+                대한 장단점을 넘넘 잘 알고 계셔서 자세히 설명해
+                주시고, 선택하는데 큰 도움이 됐어요~ 무엇보다 우리
+                아파트 작업을 해보신 분이라 눈에 보이지 않는 내부
+                구조물까지 파악하고 계셔서 부차적으로 추가되는
+                작업이나 금액 없이 순조롭게 이루어져서 만족합니다~
+                막막하기만 했던 집상황이었지만 원하는 인테리어를
+                맘껏하고 예쁜 집에 앉아 행복해 하고 있답니다~^^ 더운
+                여름날 땀 흘리신 홈앤안목업체에 다시 한 번
+                감사드립니다~~~
               
               </p>
-              <span><strong>지브로(JIBRO)</strong></span>
+              <span><strong>홈앤안목 인테리어</strong></span>
           </div>
           <div class="review">
-           <a href=""> <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/164274090446550996.jpg?gif=1&w=720&h=720&c=c" alt=""></a>
+           <a href=""><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/162995774716480697.jpg?gif=1&w=720&h=720&c=c" alt=""></a> 
             <br/>
             <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             <p class="review_content">
-                  
+                
               
-              공사기간도 정확히 지켜주시고 처음 상담할때
-              제시했던대로 잘 진행해주셨읍니다 오늘의 집에서 소개된
-              완공된 인테리어가 많은 도움이 되었고 사진을 보면서
-              서로 의논도 나누었읍니다 지금은 변화된 집에서
-              아주만족한 후기사진을 올립니다
+              부산에 사시는 부모님 댁을 리모델링 했었는데 상담
+              과정은 빠르고 친절하셨고, 시공 기간도 리모델링을 위한
+              이사 일정에 맞춰서 정확하게 잘 지켜주셨습니다.
+              생각했던 부분 이상으로 다른 부분까지 꼼꼼하게 확인하고
+              챙겨주셔서 기대 이상의 퀄리티가 나온 것 같다고
+              부모님도 좋아하셨습니다. 예전에는 한샘 리하우스에서과
+              계약을 하고 진행했었는데 가격 대비 퀄리티를 보면
+              이제는 그냥 이렇게 진행하는게 가성비면에서 만족도가 더
+              높은 것 같다는 생각이 드네요. 어머니가 거의 매일
+              친구분들을 초대하셔서 집들이 중이시라 아파트에서
+              "구경하는 집"이 되어버렸다는 ^.^;
             
             
             </p>
-            <span><strong>현대L&C/리바트직영전시장</strong></span>
+            <span><strong>지브로(JIBRO)</strong></span>
         </div>
-        </div>
-        <div class="footer" style="margin-top: 32px;">
-            <div><h4 style="width: 665px;">고객센터</h4></div>
-            <div class="foot_container">
-              <div>
-                <div><span style="font-size: 50px;">1670-1234</span></div>
-                <div><span style="color: rgb(97, 97, 97);">평일 09:00 ~ 18:00 (주말 & 공휴일 제외)</span></div>
-              </div>
-              <div class="icons" style="margin-left: auto;">
-                <a href=""
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <path
-                    d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
-                  />
-                  </svg></a>
-            </li>
-            <li>
-              <a href=""
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
-                  /></svg></a>
-            </li>
-            <li>
-              <a href=""
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
-                >
-                  <path
-                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-                  /></svg></a>
-            </li>
-            <li>
-              <a href=""
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  /></svg></a>
-              </div>
+        <div class="review">
+         <a href=""> <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/164274090446550996.jpg?gif=1&w=720&h=720&c=c" alt=""></a>
+          <br/>
+          <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+          <p class="review_content">
+                
+            
+            공사기간도 정확히 지켜주시고 처음 상담할때
+            제시했던대로 잘 진행해주셨읍니다 오늘의 집에서 소개된
+            완공된 인테리어가 많은 도움이 되었고 사진을 보면서
+            서로 의논도 나누었읍니다 지금은 변화된 집에서
+            아주만족한 후기사진을 올립니다
+          
+          
+          </p>
+          <span><strong>현대L&C/리바트직영전시장</strong></span>
+      </div>
+      </div>
+      <div class="footer" style="margin-top: 32px;">
+          <div><h4 style="width: 665px;">고객센터</h4></div>
+          <div class="foot_container">
+            <div>
+              <div><span style="font-size: 50px;">1670-1234</span></div>
+              <div><span style="color: rgb(97, 97, 97);">평일 09:00 ~ 18:00 (주말 & 공휴일 제외)</span></div>
             </div>
-            <div class="">
-              <ul style="display: flex; padding: 0; justify-content: flex-start;">
-                <a href=""><li>브랜드 스토리</li></a>
-                <a href=""><li>회사소개</li></a>
-                <a href=""><li>채용정보</li></a>
-                <a href=""><li>이용약관</li></a>
-                <a href=""><li>개인정보처리방침</li></a>
-                <a href=""><li>공지사항</li></a>
-                <a href=""><li>고객센터</li></a>
-                <a href=""><li>고객의 소리</li></a>
-                <a href=""><li>전문가 등록</li></a>
-              </ul>
+            <div class="icons" style="margin-left: auto;">
+              <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                />
+                </svg></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
+                /></svg></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                /></svg></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                /></svg></a>
             </div>
-        </div>
-    </div>
-    </div>
+          </div>
+          <div class="">
+            <ul style="display: flex; padding: 0; justify-content: flex-start;">
+              <a href=""><li>브랜드 스토리</li></a>
+              <a href=""><li>회사소개</li></a>
+              <a href=""><li>채용정보</li></a>
+              <a href=""><li>이용약관</li></a>
+              <a href=""><li>개인정보처리방침</li></a>
+              <a href=""><li>공지사항</li></a>
+              <a href=""><li>고객센터</li></a>
+              <a href=""><li>고객의 소리</li></a>
+              <a href=""><li>전문가 등록</li></a>
+            </ul>
+          </div>
+      </div>
+  </div>
+  </div>
   </body>
 </html>
