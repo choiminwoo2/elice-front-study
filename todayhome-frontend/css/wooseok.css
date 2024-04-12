@@ -58,12 +58,14 @@
 }
 
 .wooseok .reviews .review .review_content{
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    width: 351px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-line-clamp: 3;
+  height: 3.5rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  overflow: hidden;
+  word-break: break-word;
+  text-overflow: ellipsis;
+  margin-top: 6px;
+  width: 351px;
 }
 
 
@@ -84,3 +86,12 @@ width: 1.5rem;
 }
 
 
+.fa{
+    color: #35c5f0;
+}
+
+
+
+.footer{
+    margin-bottom: 100px;
+}
