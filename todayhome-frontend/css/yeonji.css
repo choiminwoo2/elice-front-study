@@ -47,15 +47,22 @@
 
 .yj-header-upper-left-list {
   display: flex;
-  font-size: 16px;
-  padding-left: 50px;
+  font-size: 18px;
+  padding-left: 40px;
   font-weight: 600;
   color: #424242;
+  margin-top: 10px;
 }
 
-.yj-header-upper-left-list nav {
+.yj-header-upper-left-list a {
   margin-right: 15px;
   margin-top: 5px;
+  font-weight: 700;
+}
+
+.yj-header-upper-left-list a:hover {
+  cursor: pointer;
+  color: #35c5f0;
 }
 
 .yj-header-upper-right {
@@ -68,12 +75,13 @@
 }
 
 .yj-header-upper-search {
+  background-color: antiquewhite;
   position: relative;
-  width: 300px;
+  width: 270px;
   height: 40px;
   display: flex;
   align-items: center;
-  padding-right: 10px;
+  margin-right: 15px;
 }
 
 .yj-header-upper-search input {
@@ -82,7 +90,7 @@
   padding-left: 40px;
   border: 1px solid #bbb;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .yj-header-upper-search input::placeholder {
@@ -99,10 +107,14 @@
   outline: none;
 }
 
-.yj-fa-magnifying-glass {
+.fa-magnifying-glass {
   position: absolute;
   color: #757575;
   padding-left: 10px;
+}
+
+.fa-cart-shopping {
+  color: #424242;
 }
 
 .yj-header-service-child-1 {
@@ -129,6 +141,28 @@
   padding-left: 10px;
   padding-right: 10px;
   font-size: 15px;
+}
+
+.yj-header-upper-btn {
+  border: none;
+  background-color: #37c5f0;
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.yj-header-upper-btn::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f078';
+  margin-left: 8px;
+}
+
+.yj-header-upper-btn:hover {
+  filter: brightness(0.7);
 }
 
 /* 헤더 하단 부분---------------------------------------------------------------*/
@@ -211,6 +245,11 @@
   cursor: pointer;
   width: 828px;
   height: 552px;
+  border-radius: 1%;
+}
+
+.yj-home-header-left img:hover {
+  transform: scale(105%);
 }
 
 .yj-home-header-left:hover .yj-home-header-tit a {
@@ -222,7 +261,6 @@
   width: 100%;
   transition: 0.3s;
   vertical-align: bottom;
-  border-radius: 1%;
   object-fit: cover;
 }
 
@@ -233,12 +271,25 @@
 
 .yj-home-header-right {
   float: right;
-  padding-left: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 291px;
+  height: 552px;
+  border-radius: 1.7%;
+  margin-left: 18px;
+  background-color: #757575;
 }
 
 .yj-home-header-right .yj-img-2 {
-  height: 552px;
-  border-radius: 1%;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  object-fit: cover;
+}
+
+.yj-home-header-right .yj-img-2:hover {
+  transform: scale(108%);
 }
 
 .yj-home-header-tit {
@@ -246,7 +297,7 @@
   top: 90%;
   left: 0;
   transform: translateY(-50%);
-  padding: 2.5rem;
+  padding: 25px;
   color: #fff;
   display: flex;
   width: 100%;
@@ -282,6 +333,7 @@
 .yj-home-main-list-inner {
   max-width: 1136px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .yj-shortcut-list {
   display: flex;
