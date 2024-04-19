@@ -96,3 +96,45 @@ width: 1.5rem;
 .footer{
     margin-bottom: 100px;
 }
+
+
+
+.yj-header-lower-contents-inner .trending{ 
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+   
+}
+.yj-header-lower-contents-inner .trending button:hover{
+    cursor: pointer;
+}
+
+.yj-header-lower-contents-inner .trending div{
+    height: 48px;
+    text-align: center;
+    
+}
+
+.yj-header-lower-contents-inner .trending .inner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank{
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.rate{
+    font-weight: 100;
+    color: red;
+    margin-right: 10px;
+    font-size: 7px;
+}
+
+
+.imgScale:hover{
+    transform: scale(105%);
+    transition: transform 0.5s ease;
+}
