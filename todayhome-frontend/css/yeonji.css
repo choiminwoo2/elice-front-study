@@ -32,10 +32,13 @@
 
 .yj-header-logo {
   float: left;
-  font-weight: 700;
   font-size: 1.5rem;
+  font-family: 'Sunflower', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   cursor: pointer;
   order: 1;
+  margin-top: 10px;
 }
 
 .yj-header-logo a {
@@ -162,7 +165,53 @@
 }
 
 .yj-header-upper-btn:hover {
-  filter: brightness(0.7);
+  background-color: #009fcd;
+}
+
+.yj-header-upper-btn-lists {
+  position: absolute;
+  background: #fff;
+  border: 1px solid rgb(218, 221, 224);
+  border-radius: 6px;
+  box-shadow: rgba(63, 71, 77, 0.2) 0px 4px 10px 0px;
+  width: 320px;
+  visibility: hidden;
+  z-index: 10;
+  margin-top: 20px;
+  transform: translate(-30%, 0%);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.yj-header-upper-btn-lists.openWriteMenu {
+  visibility: visible;
+  margin-right: 100px;
+  opacity: 1;
+}
+
+.yj-header-upper-btn-lists a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.yj-header-upper-btn-lists a:last-child {
+  padding-bottom: 20px;
+}
+
+.yj-header-upper-btn-lists a h4 {
+  color: #424242;
+  font-size: 15px;
+  padding-bottom: 0.5rem;
+}
+
+.yj-header-upper-btn-lists a p {
+  font-size: 12px;
+  color: #424242;
 }
 
 /* 헤더 하단 부분---------------------------------------------------------------*/
