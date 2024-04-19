@@ -32,10 +32,13 @@
 
 .yj-header-logo {
   float: left;
-  font-weight: 700;
   font-size: 1.5rem;
+  font-family: 'Sunflower', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   cursor: pointer;
   order: 1;
+  margin-top: 10px;
 }
 
 .yj-header-logo a {
